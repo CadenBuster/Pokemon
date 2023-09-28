@@ -1,0 +1,150 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.pokecard {
+    border:2px solid whitesmoke;
+    margin: 10px 0px 0px 10px;
+    width: 145px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.poketitle {
+    border-bottom: 3px solid black;
+    background-color: red;
+    width: 100%;
+    padding: 2px 0px 0px 5px;
+}
+
+.my_button{
+    margin: 10px;
+    background-color: white;
+    border-color: red;
+    color: black;
+}
+
+.my_button:hover {
+    background-color:black;
+    border-color:white;
+}
+
+.my_forms {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(98, 167, 217);
+    border: 1px solid black;
+    border-radius: 10%;
+    flex-direction: column;
+    width: 15%;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+.background_image {
+    height: 100vh;
+    background-image: url('images/pidgeot.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Welcome {
+    border-radius: 30%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #1d77ac;
+    height: 50%;
+    width: 30%;
+    background-color: #d5bd8ac8;
+}
+
+
+.nav_bar_color {
+    background-color: #d5bd8a;
+}
+
+.nav_bar_text {
+    color:#1d77ac;
+}
+
+#pokepage {
+    height: 100vh;
+    background-image: url('images/pokemonfind.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#pokebutton {
+    background-color: red;
+    color:white;
+    text-decoration: none;
+    border:1px solid black;
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+.pokemonteam {
+    height: 100vh;
+    background-image: url('images/Pokeball-Wallpaper-Full-HD.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.signin_pages{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/Pokemon-Wallpapers-HD.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+}
+
+.trainercard {
+    background-color: black;
+    color:white;
+    border: 1px solid white;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    border-radius: 5%;
+}
+
+.trainers {
+    height:100vh;
+    background-image: url('images/Wallpaper\ Pokemon\ 36.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
